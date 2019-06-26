@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+    "strconv"
+    "fmt"
+)
 
-func main(){
-	fmt.Println("Hello World!")
+func main() {
+	card := "Ace of spades"
+	number := 14
+	t := strconv.Itoa(number)
+	fmt.Println("Hello World! " + card + " " + t)
 }
-
