@@ -16,5 +16,6 @@ Test: go test
 
 # Import
 * Give my package all the functions in fmt (format) - inbuilt standard lib in Go
-* 
   
+# Static
+* Static typed language
